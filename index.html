@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krzysztof Banasiak</title>
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="body">
+    <div class="body__container">
+        <section id="strona-główna" class="body__section">
+            <header class="body__header body__section">
+                <h1>Moja wizytówka</h1>
+            </header>
+        </section>
+        <nav>
+            <ul>
+                <li class="navigation__list">
+                    <a class="navigation__link" href="#strona-główna">Strona główna</a>
+                </li>
+                <li class="navigation__list">
+                    <a class="navigation__link" href="#o-mnie">O mnie w kilku słowach</a>
+                </li>
+                <li class="navigation__list">
+                    <a class="navigation__link" href="#moje-pasje">Moje pasje</a>
+                </li>
+                <li class="navigation__list">
+                    <a class="navigation__link" href="#tabela">Moje ulubione drużyny esportowe</a>
+                </li>
+                <li class="navigation__list">
+                    <a class="navigation__link" href="#przycisk">Przykładowa interakcja</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <main>
+
+
+            <section id="o-mnie" class="main__section">
+                <h2>O mnie w kilku słowach</h2>
+                <p class="main__paragraph">
+
+                    Nazywam się Krzysztof Banasiak i dopiero zacząłem kurs programowania.
+
+                    Chciałbym zacząć pracę jako programista już w trakcie tego kursu.
+
+                    Dzięki pracy będę mógł się przeprowadzić do większego mieszkania i rozwijać swoje pasje.
+
+                    Studiowałem przez 3 semestry Elektronikę na Politechnice Warszawskiej, ale stwierdziłem, że kurs
+                    programowania przyniesie mi więcej korzyści i sprawi większą przyjemność, a przy okazji da również
+                    satysfakcje.
+                </p>
+            </section>
+
+            <img class="main__image" width="500" height="500" src="images/Krzysiek Banasiak.jpg" alt="krzysiek">
+
+            <section id="moje-pasje" class="main__section">
+                <h3>Moje pasje</h3>
+                <p class="main__paragraph">
+                    Jazda na motocyklu sprawia mi dużą frajdę tak samo jak granie i analizowanie popularnej gry League
+                    of Legends.
+                    <hr>
+
+                    Na motocykl zrobiłem prawo jazdy kategorii AM w wieku 15 lat z kolei w wieku 18 lat prawo jazdy
+                    kategorii A2 i przemierzyłem już łącznie na motocyklach około 20tys. km.
+                    <hr>
+
+                    W grach jestem zafascynowany odkąd byłem dzieckiem. Już w wieku 7 lat zacząłem bardziej interesować
+                    się grami i szukać nowych tutułów.
+                    <hr>
+
+                    Ukończyłem także szkołę muzyczną pierwszego stopnia a moim instrumentem było pianino. Chodziłem do
+                    tej szkoły przez 4 lata.
+                </p>
+            </section>
+
+            <section id="tabela" class="main__section">
+                <div class="main__tableContainer">
+                    <table class="main__table">
+                        <caption class="main__caption">Moje ulubione drużyny esportowe</caption>
+
+                        <thead>
+                            <tr class="main__tableRow">
+                                <th class="main__tableCell main__tableHeader" scope="col">Drużyna</th>
+                                <th class="main__tableCell main__tableHeader" scope="col">Mistrzowie regionu</th>
+                                <th class="main__tableCell main__tableHeader" scope="col">Mistrzowie świata</th>
+                                <th class="main__tableCell main__tableHeader" scope="col">Region</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="main__tableRow">
+                                <th class="main__tableCell main__tableHeader" scope="row">T1</th>
+                                <td class="main__tableCell">5 razy</td>
+                                <td class="main__tableCell">5 razy</td>
+                                <td class="main__tableCell">Korea Południowa</td>
+                            </tr>
+                            <tr class="main__tableRow">
+                                <th class="main__tableCell main__tableHeader" scope="row">Edward Gaming</th>
+                                <td class="main__tableCell">9 razy</td>
+                                <td class="main__tableCell">2 razy</td>
+                                <td class="main__tableCell">Chiny</td>
+                            </tr>
+                            <tr class="main__tableRow">
+                                <th class="main__tableCell main__tableHeader" scope="row">G2 Esports</th>
+                                <td class="main__tableCell">7 razy</td>
+                                <td class="main__tableCell">1 raz</td>
+                                <td class="main__tableCell">Europa</td>
+                            </tr>
+                            <tr class="main__tableRow">
+                                <th class="main__tableCell main__tableHeader" scope="row">Fnatic</th>
+                                <td class="main__tableCell">9 razy</td>
+                                <td class="main__tableCell">1 raz</td>
+                                <td class="main__tableCell">Europa</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <section id="przycisk" class="main__section">
+            <p class="main__interaction">
+                Przykładowa interakcja w JS-ie
+            </p>
+            <p>
+                <button class="main__button">Włącz <span class="main__nextColorName">ciemny</span> motyw strony</button>
+            </p>
+
+        </section>
+
+        <footer class="main__footer">
+            Wszelkie prawa zastrzeżone
+        </footer>
+
+        <link href="css/style.css" rel="stylesheet">
+    </div>
+
+
+
+</body>
+
+</html>
